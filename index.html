@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="form login by html, css and javascript">
+    <meta name="keywords" content="form, form login, login">
+    <meta name="author" content="asem naderi">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Button for open modal -->
+    <button type="button" class="loginBtn">Login</button>
+    <!-- end Button -->
+
+    <!--  modal container -->
+
+
+    <!-- modal -->
+    <section class="login-box">
+
+        <span class="close" title="close">&times;</span>
+
+        <section class="img-login">
+            <img src="images/Login-amico.svg" alt="login image">
+        </section>
+
+        <form action="#" method="POST" class="form-box" id="modal-box">
+            <h1>Sign in</h1>
+            <div>
+                <i class="fas fa-user-tie"></i>
+                <input type="text" name="user" id="user-name" placeholder="Enter user name:" required>
+            </div>
+            <div>
+                <i class="fas fa-key"></i>
+                <input type="password" name="passWord" id="user-pass" placeholder="Enter password:" required>
+            </div>
+            <pre class="forgot-info">forgat password? <a href="#">click here</a></pre>
+
+            <div>
+                <div class="subBtn-box">
+                    <input type="submit" class="submit" name="submitBtn" value="login">
+                </div>
+                <label class="checkLabel">
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+            </div>
+
+        </form>
+
+    </section>
+    <!-- end modal -->
+
+
+    <script type="text/javascript" src="js/index.js"></script>
+
+</body>
+
+</html>
